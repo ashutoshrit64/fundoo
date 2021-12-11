@@ -33,9 +33,9 @@ public class MailService
 	//all the content of the mail is taken as parameter to this given method of the java mail service
 	public static void send(String toEmail, String subject, String body)
 	{
-		final String fromEmail = "ashutoshrit64@gmail.com"; 
+		final String fromEmail = ""; 
 		// requires valid gmail id 
-		final String password = "nautanki"
+		final String password = ""
 		; // correct password for gmail id
 	Properties props = new Properties();
 	props.put("mail.smtp.host", "smtp.gmail.com");
